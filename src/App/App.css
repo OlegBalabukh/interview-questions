@@ -1,0 +1,34 @@
+li {
+  margin: 10px 30px 0px 30px;
+}
+
+nav {
+  background-color: #e6ffff;
+  border: 2px solid #ccffff;
+}
+
+h2.text-center {
+  color: gold;
+  background-color: green;
+  padding: 10px;
+}
+
+img#home {
+  width: 30px;
+  height: 30px;
+}
+
+img#js {
+  width: 60px;
+  height: 60px;
+}
+
+img#redux {
+  width: 45px;
+  height: 45px;
+}
+
+img#react, img#html, img#css {
+  width: 55px;
+  height: 55px;
+}
