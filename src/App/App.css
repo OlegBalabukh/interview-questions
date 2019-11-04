@@ -32,3 +32,21 @@ img#react, img#html, img#css {
   width: 55px;
   height: 55px;
 }
+
+h5 {
+  cursor: pointer;
+  color: maroon;
+}
+
+p.answer {
+  margin-left: 20px;
+  background-color: #e6ffe6;
+}
+
+span {
+  margin-left: 30px;
+}
+
+h6 {
+  line-height: 150%;
+}
