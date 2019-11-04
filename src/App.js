@@ -6,30 +6,38 @@ import {
   Link
 } from "react-router-dom";
 
+import jsLogo from './assets/js-logo.png';
+import reactLogo from './assets/react-logo.png';
+import reduxLogo from './assets/redux-logo.png';
+import htmlLogo from './assets/html-logo.png';
+import cssLogo from './assets/css-logo.png';
+import homeLogo from './assets/home-logo.png';
+import './App.css';
+
 
 export default function App() {
   return (
     <Router>
       <div>
-        <nav>
+        <nav className="nav justify-content-center">
           <ul>
-            <li>
-              <Link to="/">Home</Link>
+            <li className="navbar-brand">
+              <Link to="/"><img src={homeLogo} width="30" height="30" alt=""/></Link>
             </li>
-            <li>
-              <Link to="/js">JS</Link>
+            <li className="navbar-brand">
+            <Link to="/js"><img src={jsLogo} width="60" height="60" alt=""/></Link>
             </li>
-            <li>
-              <Link to="/react">React</Link>
+            <li className="navbar-brand">
+              <Link to="/react"><img src={reactLogo} width="55" height="55" alt=""/></Link>
             </li>
-            <li>
-              <Link to="/redux">Redux</Link>
+            <li className="navbar-brand">
+              <Link to="/redux"><img src={reduxLogo} width="45" height="45" alt=""/></Link>
             </li>
-            <li>
-              <Link to="/html">HTML</Link>
+            <li className="navbar-brand">
+              <Link to="/html"><img src={htmlLogo} width="55" height="55" alt=""/></Link>
             </li>
-            <li>
-              <Link to="/css">CSS</Link>
+            <li className="navbar-brand">
+              <Link to="/css"><img src={cssLogo} width="55" height="55" alt=""/></Link>
             </li>
           </ul>
         </nav>
