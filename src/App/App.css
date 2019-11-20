@@ -50,3 +50,22 @@ span {
 h6 {
   line-height: 150%;
 }
+
+.line-break {
+  white-space: pre-line;
+}
+
+p {
+  margin-bottom: 0;
+  margin-left: 50px;
+}
+
+p.indent {
+  margin-left: 70px;
+}
+
+code br {
+  display: block;
+  content: " ";
+  margin-top: 10px;
+}
