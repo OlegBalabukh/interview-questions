@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "595bb559ead94b7cc15521415f2fec97",
+    "revision": "df906346459aa27635db01c760eecca3",
     "url": "/interview-questions/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/interview-questions/static/css/2.b0bb7f2c.chunk.css"
   },
   {
-    "revision": "727376a8405307cee0ef",
+    "revision": "1c0a48df3211304c8454",
     "url": "/interview-questions/static/css/main.6f3f3660.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/interview-questions/static/js/2.e85dcd1c.chunk.js"
   },
   {
-    "revision": "727376a8405307cee0ef",
-    "url": "/interview-questions/static/js/main.53db6fdc.chunk.js"
+    "revision": "1c0a48df3211304c8454",
+    "url": "/interview-questions/static/js/main.eabff542.chunk.js"
   },
   {
     "revision": "afd666cc3c02b3ba4e36",
